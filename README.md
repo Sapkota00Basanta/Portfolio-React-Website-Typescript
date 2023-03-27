@@ -33,8 +33,7 @@ Project is created with:
 ## Resources
 
 - Vite: [![Vite](https://img.shields.io/badge/-Vite-646cff?logo=vite&logoColor=white&logoWidth=20)](https://vitejs.dev/guide/)
-- React: [![ReactJS](https://img.shields.io/badge/-React-61dafb?logo=react&logoColor=white&logoWidth=20)]
-  (https://react.dev/learn)
+- React: [![ReactJS](https://img.shields.io/badge/-React-61dafb?logo=react&logoColor=white&logoWidth=20)](https://react.dev/learn)
 - Typescript: [![Typescript](https://img.shields.io/badge/-Typescript-3178C6?logo=Typescript&color=white&logoWidth=20)](https://www.typescriptlang.org/docs/)
 - SCSS: [![SCSS](https://img.shields.io/badge/-SCSS-CC6699?logo=sass&logoColor=white&logoWidth=20)](https://sass-lang.com/)
 - Framer: [![Framer](https://img.shields.io/badge/-Framer-0055FF?logo=Framer&color=white&logoWidth=20)](https://www.framer.com/motion/)
