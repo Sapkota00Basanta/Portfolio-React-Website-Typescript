@@ -1,6 +1,6 @@
 # Portfoio Website | React | Typescript
 
-### A portfolio website build using React, SCSS, Typescript, FramerMotion. This website is a platform where i can showcase all of my projects and my skills.
+### A portfolio website Frontend build using React, SCSS, Typescript, FramerMotion. This website is a platform where i can showcase all of my projects and my skills.
 
 ## Table of contents
 
