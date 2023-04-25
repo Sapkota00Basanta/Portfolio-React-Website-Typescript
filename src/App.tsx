@@ -1,35 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// Import Third-Party Modules
+import React from 'react';
 
-function App() {
-  const [count, setCount] = useState(0)
+// Import User-Defined Modules
+import './App.scss';
+import { NavBar } from './components';
+import { About, Footer, Header, Skills, Testimonials, Work } from './screens';
+import { IAppProps } from './types/App.types';
 
+/**
+ * This component is the main App Component
+ * where we bundle all our sub components module.
+ */
+export const App: React.FC<IAppProps> = () => {
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="app">
+      <NavBar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonials />
+      <Footer />
     </div>
-  )
-}
-
-export default App
+  );
+};
