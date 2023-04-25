@@ -2,6 +2,9 @@
 import React from 'react';
 
 // Import User-Defined Modules
+import './App.scss';
+import { NavBar } from './components';
+import { About, Footer, Header, Skills, Testimonials, Work } from './screens';
 import { IAppProps } from './types/App.types';
 
 /**
@@ -10,8 +13,14 @@ import { IAppProps } from './types/App.types';
  */
 export const App: React.FC<IAppProps> = () => {
   return (
-    <>
-      <h1> Hello from App Component</h1>
-    </>
+    <div className="app">
+      <NavBar />
+      <Header />
+      <About />
+      <Work />
+      <Skills />
+      <Testimonials />
+      <Footer />
+    </div>
   );
 };
