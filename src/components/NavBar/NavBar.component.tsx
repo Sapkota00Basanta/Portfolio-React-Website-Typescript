@@ -9,6 +9,9 @@ import {
 import './NavBar.scss';
 import { images } from '../../constants';
 
+/**
+ * Navigation Section Array List
+ */
 export const navigationSectionList: Array<INavBarSectionList> = [
   INavBarSectionList.Home,
   INavBarSectionList.About,
