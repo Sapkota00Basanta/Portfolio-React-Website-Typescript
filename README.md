@@ -30,6 +30,12 @@ Project is created with:
 
 ## Components
 
+- Home
+- About
+- Work
+- Skills
+- contact
+
 ## Resources
 
 - Vite: [![Vite](https://img.shields.io/badge/-Vite-646cff?logo=vite&logoColor=white&logoWidth=20)](https://vitejs.dev/guide/)
