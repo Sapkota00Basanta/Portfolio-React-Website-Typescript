@@ -26,7 +26,6 @@ export const About: React.FC<IAboutProps> = () => {
       sanityClientInstance
         .fetch(sanityBackendQuery)
         .then((data: Array<IAboutObjectType>) => {
-          console.log(data);
           setAboutsData(data);
         })
         .catch((error: any) => {
