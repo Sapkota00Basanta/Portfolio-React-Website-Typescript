@@ -5,3 +5,9 @@
 export interface IAboutProps {
   props?: any;
 }
+
+export type IAboutObjectType = {
+  title: string;
+  description: string;
+  imgUrl: string;
+};
