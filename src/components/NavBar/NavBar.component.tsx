@@ -1,15 +1,15 @@
 // Import Third-Party Modules
+import { motion } from 'framer-motion';
 import React, { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
-import { motion } from 'framer-motion';
 
 // Import User-Defined Modules
+import { images } from '../../constants';
 import {
   INavBarProps,
   INavBarSectionList,
 } from '../../types/components/NavBar.types';
 import './NavBar.scss';
-import { images } from '../../constants';
 
 /**
  * Navigation Section Array List

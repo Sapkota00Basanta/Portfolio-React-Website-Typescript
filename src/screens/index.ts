@@ -1,10 +1,9 @@
+// Import User-Defined Modules
+import HeaderScreen from './Header/Header.screen';
+import AboutScreen from './About/About.screen';
+
 /**
  * This module is responsibel for exporting all the
  * screens from a single module.
  */
-export { About } from './About/About.screen';
-export { Footer } from './Footer/Footer.screen';
-export { Header } from './Header/Header.screen';
-export { Skills } from './Skills/Skills.screen';
-export { Testimonials } from './Testimonials/Testimonials.screen';
-export { Work } from './Work/Work.screen';
+export { AboutScreen, HeaderScreen };

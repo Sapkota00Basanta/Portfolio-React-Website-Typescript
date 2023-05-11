@@ -1,19 +1,19 @@
 // Import Third-Party Modules
-import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import React, { useEffect, useState } from 'react';
 
 // Import User-Defined Modules
 import { IAboutObjectType, IAboutProps } from '../../types/screens/About.types';
+import { URLFor, sanityClientInstance } from '../../utils/sanity.client';
 import './About.scss';
-import { images } from '../../constants';
-import { sanityClientInstance, URLFor } from '../../utils/sanity.client';
+import { AppWrapper } from '../../wrapper/App.wrapper';
 
 /**
  * This component is the collection of all the simple UI components
  * needed for About screen component.
  * @returns
  */
-export const About: React.FC<IAboutProps> = () => {
+const About: React.FC<IAboutProps> = () => {
   const [aboutsData, setAboutsData] = useState<Array<IAboutObjectType>>([]);
 
   /**
@@ -74,3 +74,5 @@ export const About: React.FC<IAboutProps> = () => {
     </>
   );
 };
+
+export default AppWrapper({ Component: About, idName: 'about' });
