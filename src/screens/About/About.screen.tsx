@@ -44,10 +44,10 @@ const About: React.FC<IAboutProps> = () => {
     <>
       <h2 className="head-text">
         I know that
-        <span>Scalable Development</span>
+        <span> Scalable Development </span>
         <br />
         means
-        <span>Modern Development</span>
+        <span> Modern Development </span>
       </h2>
       <div className="app__profiles">
         {aboutsData.map((aboutItem, index) => (

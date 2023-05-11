@@ -5,3 +5,12 @@
 export interface IWorkProps {
   props?: any;
 }
+
+export type IWorkObjectTypes = {
+  title: string;
+  description: string;
+  projectLink: string;
+  codeLink: string;
+  imgUrl: string;
+  tags: Array<string>;
+};
