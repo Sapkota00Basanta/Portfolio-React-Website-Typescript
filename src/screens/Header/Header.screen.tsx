@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { IHeaderProps } from '../../types/screens/Header.types';
 import { images } from '../../constants';
 import './Header.scss';
+import { AppWrapper } from '../../wrapper/App.wrapper';
 
 // Variants property for motion element
 const variants = {
@@ -31,7 +32,7 @@ const logoForHeaderCircles: Array<string> = [
  * budled for Header Screen Component.
  * @returns Header Screen Component.
  */
-export const Header: React.FC<IHeaderProps> = () => {
+const Header: React.FC<IHeaderProps> = () => {
   return (
     <div id="home" className="app__header app__flex">
       <motion.div
@@ -84,3 +85,5 @@ export const Header: React.FC<IHeaderProps> = () => {
     </div>
   );
 };
+
+export default AppWrapper({ Component: Header, idName: 'home' });

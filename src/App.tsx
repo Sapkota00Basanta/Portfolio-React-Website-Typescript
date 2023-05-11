@@ -4,7 +4,7 @@ import React from 'react';
 // Import User-Defined Modules
 import './App.scss';
 import { NavBar } from './components';
-import { About, Footer, Header, Skills, Testimonials, Work } from './screens';
+import { HeaderScreen, AboutScreen } from './screens';
 import { IAppProps } from './types/App.types';
 
 /**
@@ -15,12 +15,12 @@ export const App: React.FC<IAppProps> = () => {
   return (
     <div className="app">
       <NavBar />
-      <Header />
-      <About />
-      <Work />
+      <HeaderScreen />
+      <AboutScreen />
+      {/* <Work />
       <Skills />
       <Testimonials />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };
